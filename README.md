@@ -11,6 +11,7 @@ Getting and Cleaning Data Project
 The result of running the script is 2 data files:
 * mean_std_data.txt - file with mean and std data with descriptive labels
 * average_data.txt - file with average data for different subjects and activities
+
 Files are created in the same directory with the script and the data archive.
 
 ### Data transformations
