@@ -28,7 +28,7 @@ subject <- rbind(subject_train, subject_test)
 names(subject) <- 'Subject'
 
 ## loading feature names and selecting mean and std from them
-features <-read.table('features.txt', stringsAsFactors=FALSE)
+features <- read.table('features.txt', stringsAsFactors=FALSE)
 names(x) <- features[[2]]
 mean_std <- grep('-mean\\(\\)|-std\\(\\)', features[[2]])
 
