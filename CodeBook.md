@@ -2,7 +2,7 @@ Getting and Cleaning Data Project Code Book
 ========================================================
 
 ### Getting data
-The data is downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones<br/>
+The data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>
 The full description of the data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ### Loading and merging data
@@ -24,4 +24,5 @@ The result is put into <b>tidy</b> data frame (180 x 68) which is written to <b>
 
 ### Format of result files
 Result files have a header with feature names and index column for observations.<br/>
-Data is separated by spaces. Strings are put without quotes.
+Data is separated by spaces. Strings are put without quotes.<br/>
+The full description of all features can be found in <i>features_info.txt</i> original data file.
